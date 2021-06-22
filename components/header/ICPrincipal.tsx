@@ -12,7 +12,7 @@ export default function Component() {
     return (
       <div className="inline-block px-3 py-2 text-base font-semibold text-white uppercase bg-green-700 rounded-lg">
         <DfinityIcon className="inline-block h-4 pb-1 mr-2" />
-        {principal.toString().substring(0, 12)}...{" "}
+        {principal.toString()}
       </div>
     );
 

@@ -4,6 +4,7 @@ import { useWeb3React } from "@web3-react/core";
 
 import { Ed25519KeyIdentity } from "@dfinity/identity";
 import type { Principal } from "@dfinity/principal";
+// import  "@dfinity/identity";
 
 import { createActors } from "./actor";
 import { loadSavedIdentity } from "./identity";

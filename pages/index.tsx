@@ -26,7 +26,7 @@ export default function Home() {
   React.useEffect(() => {
     toast(
       <div className="">
-        <b>The Wall</b> is a crossover Ethereum/Internet Computer demo app. Use
+        <b>AKA Wallet</b> is a crossover Ethereum/Internet Computer demo app. Use
         Metamask to sign in and automatically generate an IC identity.
         <div className="mt-2">
           <GitHub className="inline-block mr-2" />
@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <div className="bg-green-900">
       <Head>
-        <title>Write on the wall</title>
+        <title>AKA Wallet</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />

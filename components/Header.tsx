@@ -93,9 +93,9 @@ export default function Component() {
                         )}
                     </button>
                   )}
-                  <EthAccount />
+                  {/* <EthAccount /> */}
                   <ICLogin />
-                  <ICPrincipal />
+                  {/* <ICPrincipal /> */}
                 </div>
               </div>
             </div>
